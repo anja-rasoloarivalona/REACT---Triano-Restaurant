@@ -1,0 +1,47 @@
+:root {
+
+  /* FONT */
+  --defaultFont: 'Montserrat', sans-serif;
+
+  /* COLOR */ 
+
+  --colorPrimary: rgb(133, 133, 133);
+  --colorSecondary: #CD790B;
+
+  --colorWhite: #FFF;
+  --colorDark: rgb(32, 32, 30);
+
+
+  /* SHADOW */
+
+  --shadow: 0 1rem .5rem rgba(#080808, .9);
+
+
+  /* GRID */
+
+  --gutter--xs: 1rem;
+  --gutter--sm: 2rem;
+  --gutter--md: 4rem;
+  --gutter--lg: 6rem;
+  --gutter--xlg: 8rem;
+  
+}
+
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+
+body {
+  box-sizing: border-box;
+  font-family: var(--defaultFont);
+}

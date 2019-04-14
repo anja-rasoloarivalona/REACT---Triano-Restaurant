@@ -1,0 +1,36 @@
+.Top {
+    grid-row: 1 / 2;
+    grid-column: 1 / -1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem 0;
+    color: red;
+    z-index: 2;
+}
+
+.TitleContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Title {
+    font-family: 'Great Vibes', cursive;
+    font-size: 4.5rem;
+}
+
+.Subtitle {
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.Adress {
+    font-size: 1.5rem;
+}
+
+.Contact {
+    font-size: 1.5rem;
+}
