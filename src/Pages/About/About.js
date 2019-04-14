@@ -5,7 +5,8 @@ import homeBackground from '../../Assets/img/home.jpg';
 const About = () => {
   return (
     <React.Fragment>
-        <Header background={homeBackground}/>
+        <Header background={homeBackground}
+                    title = "About us"/>
     </React.Fragment>
   )
 }

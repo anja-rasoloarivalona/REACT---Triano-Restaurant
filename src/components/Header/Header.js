@@ -1,5 +1,6 @@
 import React from 'react';
 import classes from './Header.css';
+import Main from './Main/Main';
 
 
 const Header = (props) => {
@@ -7,6 +8,9 @@ const Header = (props) => {
     <header 
         className={classes.Header}
         style={{backgroundImage: "url(" + props.background + ")"}}>
+
+        <Main title={props.title} />
+        
 
     </header>
   )

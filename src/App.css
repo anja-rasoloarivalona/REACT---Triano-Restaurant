@@ -4,12 +4,8 @@
   --defaultFont: 'Montserrat', sans-serif;
 
   /* COLOR */ 
-
-  --colorPrimary: rgb(133, 133, 133);
-  --colorSecondary: #CD790B;
-
-  --colorWhite: #FFF;
-  --colorDark: rgb(32, 32, 30);
+  --color-white : #fff;
+  --color-primary: #CD790B;
 
 
   /* SHADOW */
@@ -44,4 +40,5 @@ html {
 body {
   box-sizing: border-box;
   font-family: var(--defaultFont);
+  overflow-x: hidden;
 }

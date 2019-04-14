@@ -4,4 +4,8 @@
     z-index: 1;
     background-position: center;
     background-size: cover;
+    display: grid;
+    grid-template-rows: max-content 1fr;
+    grid-template-columns: 1fr 4fr 1fr;
+    background-attachment: fixed;
 }

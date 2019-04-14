@@ -1,0 +1,24 @@
+.Discover {
+    grid-column: 2 / 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 2rem;
+}
+.DiscoverTextContainer {
+    width: 40%;
+}
+
+.DiscoverGallery{
+    width: 60%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.DiscoverImg {
+    width: 25rem;
+   
+    object-fit: cover;
+    margin: 0 1rem;
+}
