@@ -2,6 +2,7 @@ import React from 'react';
 import classes from './Home.css';
 
 import Header from '../../components/Header/Header';
+import HomeLayout from '../../Pages/Home/HomeLayout/HomeLayout';
 import TextLeft from '../../components/UI/TextLeft/TextLeft';
 import TextRight from '../../components/UI/TextRight/TextRight';
 
@@ -18,28 +19,31 @@ const Home = () => {
             <Header 
                     background={homeBackground}
                     title = "The right place to be"/>
+
+            <HomeLayout>
             
-            <TextLeft 
-                    title = "OUR STORY" 
-                    text = "Triano is a restaurant, bar and coffee roastery located on a busy corner site in Farringdon’s Exmouth Market. With glazed frontage on two sides of the building, overlooking the market and a bustling London intersection."
-                    img1 = {discover1}
-                    img2 = {discover2}/>
+                        <TextLeft 
+                                title = "OUR STORY" 
+                                text = "Triano is a restaurant, bar and coffee roastery located on a busy corner site in Farringdon’s Exmouth Market. With glazed frontage on two sides of the building, overlooking the market and a bustling London intersection."
+                                img1 = {discover1}
+                                img2 = {discover2}/>
                     
 
-            <section style={{backgroundImage: "url(" + home + ")"}} className={classes.Gallery}>
-                    THE ROOFTOP
-            </section>
+                        <section style={{backgroundImage: "url(" + home + ")"}} className={classes.Gallery}>
+                                THE ROOFTOP
+                        </section>
 
-            <TextRight 
-                    title = "OUR MENU" 
-                    text = "Triano is a restaurant, bar and coffee roastery located on a busy corner site in Farringdon’s Exmouth Market. With glazed frontage on two sides of the building, overlooking the market and a bustling London intersection."
-                    img1 = {discover1}
-                    img2 = {discover2}/>
-            <section style={{backgroundImage: "url(" + home + ")"}} className={classes.Gallery}>
-                    THE ROOFTOP
-            </section>
+                        <TextRight 
+                                title = "OUR MENU" 
+                                text = "Triano is a restaurant, bar and coffee roastery located on a busy corner site in Farringdon’s Exmouth Market. With glazed frontage on two sides of the building, overlooking the market and a bustling London intersection."
+                                img1 = {discover1}
+                                img2 = {discover2}/>
 
+                        <section style={{backgroundImage: "url(" + home + ")"}} className={classes.Gallery}>
+                                THE ROOFTOP
+                        </section>
 
+            </HomeLayout>
 
 
     </React.Fragment>
