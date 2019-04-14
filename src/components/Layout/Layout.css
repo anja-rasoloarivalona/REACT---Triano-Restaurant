@@ -1,5 +1,5 @@
 .Layout {
     display: grid;
-    grid-template-columns: 1fr 5fr 1fr;
-    grid-template-rows: 10rem 10rem calc(100vh - 20rem) max-content;
+    grid-template-columns: 1fr 90vw 1fr;
+    grid-template-rows: 10rem 10rem calc(100vh - 20rem) max-content 50vh;
 }

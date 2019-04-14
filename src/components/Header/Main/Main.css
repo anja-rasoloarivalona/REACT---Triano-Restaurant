@@ -18,9 +18,10 @@
 .WelcomeTitle {
     font-family: 'Great Vibes', cursive;
     font-size: 12rem;
+    font-weight: 400;
 }
 
 .Name {
     font-size: 4.7rem;
-    font-weight: 800;
+    font-weight: 400;
 }
