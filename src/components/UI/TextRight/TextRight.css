@@ -13,6 +13,8 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding-left: 8rem;
+
 }
 
 .TextTitle {
@@ -35,19 +37,3 @@
     margin-left: 2rem;
 }
 
-.Gallery {
-    width: 50%;
-    height: 60vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-right: 7rem;
-    
-}
-
-.Img {
-    height: 100%;
-    width: 50%; 
-    object-fit: cover;
-    margin: 0 1rem;
-}
