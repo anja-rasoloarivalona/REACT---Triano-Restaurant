@@ -2,5 +2,5 @@
     grid-column: 1 / -1;
     display: grid;
     grid-template-columns: 1fr 50vw 1fr;
-    grid-template-rows: max-content;
+    grid-template-rows: max-content repeat(2, 30vh) max-content repeat(2, 30vh) max-content 
 }

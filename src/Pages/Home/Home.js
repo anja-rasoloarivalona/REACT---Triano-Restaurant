@@ -2,9 +2,9 @@ import React from 'react';
 import classes from './Home.css';
 
 import Header from '../../components/Header/Header';
-import HomeLayout from '../../Pages/Home/HomeLayout/HomeLayout';
 import TextLeft from '../../components/UI/TextLeft/TextLeft';
 import TextRight from '../../components/UI/TextRight/TextRight';
+import FullParallax from '../../components/UI/Gallery/FullParallax/FullParallax';
 
 
 import homeHeader from '../../Assets/img/home/homeHeader.jpg';
@@ -17,7 +17,17 @@ import menu2 from '../../Assets/img/home/menu-2.jpg';
 import menu3 from '../../Assets/img/home/menu-3.jpg';
 import menu4 from '../../Assets/img/home/menu-4.jpg';
 
-import dinerRoom from '../../Assets/img/home/diner-room.jpg'
+import diningRoom from '../../Assets/img/home/diner-room.jpg';
+import rooftop from '../../Assets/img/home/rooftop.jpg';
+import bar from '../../Assets/img/home/bar.jpeg';
+
+
+import drinks1 from '../../Assets/img/home/drinks-1.jpg';
+import drinks2 from '../../Assets/img/home/drinks-2.jpg';
+import drinks3 from '../../Assets/img/home/drinks-3.jpg';
+import drinks4 from '../../Assets/img/home/menu-4.jpg';
+
+
 
 import discover1 from '../../Assets/img/discover1.jpg';
 import discover2 from '../../Assets/img/discover2.jpg';
@@ -33,7 +43,7 @@ const Home = () => {
                     background={homeHeader} />
                
 
-            <HomeLayout>
+           
             
                         <TextLeft
                                 twoImg
@@ -43,9 +53,8 @@ const Home = () => {
                                 img2 = {chef}/>
                     
 
-                        <section style={{backgroundImage: "url(" + dinerRoom + ")"}} className={classes.Gallery}>
-                                THE ROOFTOP
-                        </section>
+                        <FullParallax background = {diningRoom}
+                                      text = "The Dining Room"/>
 
                         <TextRight 
                                 title = "OUR MENU" 
@@ -57,22 +66,20 @@ const Home = () => {
                                 img4 = {menu4}/>
                                 
 
-                        <section style={{backgroundImage: "url(" + discover1 + ")"}} className={classes.Gallery}>
-                                THE ROOFTOP
-                        </section>
+                                <FullParallax background = {rooftop}
+                                      text = "The Rooftop"/>
 
                         <TextLeft
                               
-                                title = "OUR STORY" 
+                                title = "OUR BAR" 
                                 text = "Triano is a restaurant, bar and coffee roastery located on a busy corner site in Farringdon’s Exmouth Market. With glazed frontage on two sides of the building, overlooking the market and a bustling London intersection."
-                                img1 = {discover1}
-                                img2 = {discover2}
-                                img3 = {discover1}
-                                img4 = {discover2}/>
+                                img1 = {drinks1}
+                                img2 = {drinks2}
+                                img3 = {drinks3}
+                                img4 = {drinks4}/>
                         
-                        <section style={{backgroundImage: "url(" + discover1 + ")"}} className={classes.Gallery}>
-                                THE ROOFTOP
-                        </section>
+                        <FullParallax background = {bar}
+                                      text = "The Bar"/>
                         
                         <TextRight
                                 twoImg
@@ -83,7 +90,7 @@ const Home = () => {
                                
                     
 
-            </HomeLayout>
+        
 
 
     </React.Fragment>

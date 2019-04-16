@@ -2,7 +2,6 @@ import React from 'react';
 import classes from './Menu.css';
 
 import Header from '../../components/Header/Header';
-import MenuLayout from './MenuLAyout/MenuLayout';
 import MenuItems from './MenuItems/MenuItems';
 
 
@@ -16,9 +15,10 @@ const Menu = () => {
                     text1 = "Our"
                     text2= "MENU"/>
 
-        <MenuLayout>
                 <section className={classes.Menu}>
 
+                  <section className={classes.MenuSection}>
+                  
                     <MenuItems 
 
                     menuTitle = 'Starters'
@@ -43,13 +43,19 @@ const Menu = () => {
                     content5= 'Dried Cranberries, Pistachios and a Balsamic Vinaigrette'
                     price5= '14'                    
                     />
+                  </section>
 
-                    <section style={{backgroundImage: "url(" + background + ")"}} className={classes.Gallery}>
-                            THE ROOFTOP
-                    </section>
+                  <section className={classes.Parallax}>
+                      <section className={classes.ParallaxImgLeft}  style={{backgroundImage: " url(" + background + ")"}}/>
+                      <section className={classes.ParallaxImg}>
+                          <h3 className={classes.ParallaxTitle}>Our Chef</h3>
+                          <h3 className={classes.ParallaxSubtitle}>SELECTION</h3>
+                      </section>
+                      <section className={classes.ParallaxImgRight} style={{backgroundImage: " url(" + background + ")"}}/>
+                  </section>
 
+                <section className={classes.MenuSection}>
                     <MenuItems 
-
                     menuTitle = 'Main course'
                     
                     title1 = 'Salmon steak'
@@ -72,11 +78,21 @@ const Menu = () => {
                     content5= 'Brandy Beurre Noir with side of Haricot Verts Sauté'
                     price5= '53'                    
                     />
+                  </section>
 
+                  <section className={classes.Parallax}>
+                      <section className={classes.ParallaxImgLeft}  style={{backgroundImage: " url(" + background + ")"}}/>
 
+                      <section className={classes.ParallaxImg}>
+                          <h3 className={classes.ParallaxTitle}>Our Chef</h3>
+                          <h3 className={classes.ParallaxSubtitle}>SELECTION</h3>
+                      </section>
 
+                      <section className={classes.ParallaxImgRight} style={{backgroundImage: " url(" + background + ")"}}/>
+                  </section>
+
+                  <section className={classes.MenuSection}>
                     <MenuItems 
-
                     menuTitle = 'Desserts'
                     
                     title1 = 'Crêpe Suzette'
@@ -99,9 +115,11 @@ const Menu = () => {
                     content5= 'Banana'
                     price5= '10'                    
                     />
-
                 </section>
-        </MenuLayout>
+
+             </section>
+
+  
 
     </React.Fragment>
   )
