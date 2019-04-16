@@ -6,14 +6,15 @@ import MenuLayout from './MenuLAyout/MenuLayout';
 import MenuItems from './MenuItems/MenuItems';
 
 
-import homeBackground from '../../Assets/img/home.jpg';
+import background from '../../Assets/img/menuHeader.jpg';
 
 const Menu = () => {
   return (
     <React.Fragment>
 
-        <Header background={homeBackground}
-                    title = "Our menu"/>
+        <Header background={background}
+                    text1 = "Our"
+                    text2= "MENU"/>
 
         <MenuLayout>
                 <section className={classes.Menu}>
@@ -43,6 +44,9 @@ const Menu = () => {
                     price5= '14'                    
                     />
 
+                    <section style={{backgroundImage: "url(" + background + ")"}} className={classes.Gallery}>
+                            THE ROOFTOP
+                    </section>
 
                     <MenuItems 
 

@@ -6,8 +6,10 @@ import HomeLayout from '../../Pages/Home/HomeLayout/HomeLayout';
 import TextLeft from '../../components/UI/TextLeft/TextLeft';
 import TextRight from '../../components/UI/TextRight/TextRight';
 
-import homeBackground from '../../Assets/img/home.jpg';
-import home from '../../Assets/img/home1.jpg';
+import homeBackground from '../../Assets/img/test3.jpg';
+
+
+import home from '../../Assets/img/test.jpg';
 
 import chef1 from '../../Assets/img/home/chef-1.JPG';
 import chef2 from '../../Assets/img/home/chef-2.jpg';
@@ -21,8 +23,10 @@ const Home = () => {
     <React.Fragment>
 
             <Header 
-                    background={homeBackground}
-                    title = "The right place to be"/>
+                    text1 = "Welcome"
+                    text2 =  "THE TRIANO"
+                    background={homeBackground} />
+               
 
             <HomeLayout>
             

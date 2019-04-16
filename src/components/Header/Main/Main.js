@@ -8,14 +8,8 @@ const Main = (props) => {
   return (
     <section className={classes.Main}>  
                <div className={classes.Welcome}>
-                    <h1 className={classes.WelcomeTitle}>Welcome</h1>
-                    <h1 className={classes.Name}>THE TRIANO</h1>
-
-                    <span className={classes.Line}>
-                          <ReactSVG src={symbol} className={classes.Icon} />
-                    </span>
-
-                    <h3>{props.title}</h3>        
+                    <h1 className={classes.WelcomeTitle}>{props.text1}</h1>
+                    <h1 className={classes.Name}>{props.text2}</h1>      
 
                
                </div>          

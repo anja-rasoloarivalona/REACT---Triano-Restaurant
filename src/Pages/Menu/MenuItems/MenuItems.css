@@ -1,13 +1,15 @@
 .List {
-    width: 80%;
+    width: 70%;
     align-self: center;
+    margin-bottom: 5rem;
 }
 
 .Title {
     align-self: center;
     padding: .5rem 1rem;
     margin-bottom: 4rem;
-    text-transform: uppercase;
     color: blue;
-    font-size: 2rem;
+    font-size: 9rem;
+    font-weight: 400;
+    font-family: 'Great Vibes', cursive;
 }

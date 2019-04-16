@@ -11,6 +11,7 @@ import {Route} from 'react-router-dom';
 import Home from './Pages/Home/Home';
 import About from './Pages/About/About';
 import Menu from './Pages/Menu/Menu';
+import Rooftop from './Pages/Rooftop/Rooftop';
 
 class App extends Component {
   render() {
@@ -21,6 +22,7 @@ class App extends Component {
             <Route exact path="/" component={Home}></Route>                     
             <Route path="/about" component={About}></Route> 
             <Route path="/menu" component={Menu}></Route>
+            <Route path="/rooftop" component={Rooftop}></Route>
           <Footer />   
       </Layout>
     );
