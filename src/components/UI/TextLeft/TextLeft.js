@@ -13,7 +13,7 @@ import GalleryLeft4img from '../Gallery/GalleryLeft/GalleryLeft4img/GalleryLeft4
                                 img2 = {props.img2}/>
                                 
         } else {
-                console.log('4img')
+      
                 gallery = <GalleryLeft4img
                                 img1 = {props.img1}
                                 img2 = {props.img2}
