@@ -15,7 +15,7 @@ const Footer = () => {
 
       <footer className={classes.Footer}>
 
-          <img src={logo} className={classes.Logo} alt="loog"/>
+          <h3 className={classes.Triano}>The Triano</h3>
 
           <div className={classes.SiteMap}>
                   <div>Site Map</div>
