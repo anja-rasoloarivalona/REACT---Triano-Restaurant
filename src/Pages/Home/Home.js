@@ -1,6 +1,4 @@
 import React from 'react';
-import classes from './Home.css';
-
 import Header from '../../components/Header/Header';
 import TextLeft from '../../components/UI/TextLeft/TextLeft';
 import TextRight from '../../components/UI/TextRight/TextRight';
@@ -24,8 +22,7 @@ import bar from '../../Assets/img/home/bar.jpeg';
 
 import drinks1 from '../../Assets/img/home/drinks-1.jpg';
 import drinks2 from '../../Assets/img/home/drinks-2.jpg';
-import drinks3 from '../../Assets/img/home/drinks-3.jpg';
-import drinks4 from '../../Assets/img/home/menu-4.jpg';
+
 
 
 
@@ -70,23 +67,14 @@ const Home = () => {
                                       text = "The Rooftop"/>
 
                         <TextLeft
-                              
+                                twoImg
                                 title = "OUR BAR" 
                                 text = "Triano is a restaurant, bar and coffee roastery located on a busy corner site in Farringdon’s Exmouth Market. With glazed frontage on two sides of the building, overlooking the market and a bustling London intersection."
                                 img1 = {drinks1}
                                 img2 = {drinks2}
-                                img3 = {drinks3}
-                                img4 = {drinks4}/>
+                                        />
                         
-                        <FullParallax background = {bar}
-                                      text = "The Bar"/>
-                        
-                        <TextRight
-                                twoImg
-                                title = "OUR STORY" 
-                                text = "Triano is a restaurant, bar and coffee roastery located on a busy corner site in Farringdon’s Exmouth Market. With glazed frontage on two sides of the building, overlooking the market and a bustling London intersection."
-                                img1 = {discover1}
-                                img2 = {discover2}/>
+                
                                
                     
 
