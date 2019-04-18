@@ -17,7 +17,7 @@ import menu2 from '../../Assets/img/home/menu-2.jpg';
 import menu3 from '../../Assets/img/home/menu-3.jpg';
 import menu4 from '../../Assets/img/home/menu-4.jpg';
 
-import diningRoom from '../../Assets/img/home/diner-room.jpg';
+import diningRoom from '../../Assets/img/home/dining-room.png';
 import rooftop from '../../Assets/img/home/rooftop.jpg';
 import bar from '../../Assets/img/home/bar.jpeg';
 
