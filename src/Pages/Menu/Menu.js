@@ -2,8 +2,6 @@ import React from 'react';
 import classes from './Menu.css';
 import {Link} from 'react-router-dom';
 import {Route} from 'react-router-dom';
-
-
 import Header from '../../components/Header/Header';
 import Lunch from './Lunch/Lunch';
 
@@ -11,7 +9,7 @@ import Lunch from './Lunch/Lunch';
 
 import background from '../../Assets/img/menuHeader.jpg';
 
-const Menu = () => {
+const menu = () => {
   return (
     <React.Fragment>
 
@@ -23,13 +21,13 @@ const Menu = () => {
 
                   <nav className={classes.Navbar}>           
                         <ul className={classes.List}>
-                            <li>
+                            <li style={{backgroundImage: "url(" + background + ")"}}>>
                                 <Link to="/menu" className={classes.Link}>LUNCH</Link>
                             </li>
-                            <li>
+                            <li style={{backgroundImage: "url(" + background + ")"}}>>
                                 <Link to="/menu/diner" className={classes.Link}>DINER</Link>
                             </li>
-                            <li>
+                            <li style={{backgroundImage: "url(" + background + ")"}}>>
                                 <Link to="/menu/brunch" className={classes.Link}>BRUNCH</Link>
                             </li>
                         </ul>
@@ -49,4 +47,4 @@ const Menu = () => {
   )
 }
 
-export default Menu;
+export default menu;
