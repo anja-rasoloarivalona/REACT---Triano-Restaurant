@@ -21,14 +21,14 @@ const menu = () => {
 
                   <nav className={classes.Navbar}>           
                         <ul className={classes.List}>
-                            <li style={{backgroundImage: "url(" + background + ")"}}>>
-                                <Link to="/menu" className={classes.Link}>LUNCH</Link>
+                            <li style={{backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(" + background + ")"}}>>
+                                <Link to="/menu" className={classes.Link}>Lunch</Link>
                             </li>
-                            <li style={{backgroundImage: "url(" + background + ")"}}>>
-                                <Link to="/menu/diner" className={classes.Link}>DINER</Link>
+                            <li style={{backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(" + background + ")"}}>>
+                                <Link to="/menu/diner" className={classes.Link}>Diner</Link>
                             </li>
-                            <li style={{backgroundImage: "url(" + background + ")"}}>>
-                                <Link to="/menu/brunch" className={classes.Link}>BRUNCH</Link>
+                            <li style={{backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(" + background + ")"}}>>
+                                <Link to="/menu/brunch" className={classes.Link}>Brunch</Link>
                             </li>
                         </ul>
                 </nav>

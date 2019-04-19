@@ -6,6 +6,8 @@
     justify-items: center;
     background-color: #E6E5E7;
     margin-top: 3rem;
+    background: rgb(0, 0, 5);
+    color: var(--color-white);
 }
 
 .Triano {
