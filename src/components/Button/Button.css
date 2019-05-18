@@ -11,3 +11,10 @@
     margin-top: 3rem;
     color: var(--color-secondary);
 }
+
+
+.Button:hover {
+    border: none;
+    background: var(--color-primary);
+    color: var(--color-white);
+}
