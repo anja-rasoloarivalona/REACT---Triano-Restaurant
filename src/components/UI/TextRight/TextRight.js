@@ -1,5 +1,7 @@
 import React from 'react';
 import classes from './TextRight.css';
+import Button from '../../Button/Button';
+
 import GalleryLeft2img from '../Gallery/GalleryLeft/GalleryLeft2img/GalleryLeft2img';
 import GalleryLeft4img from '../Gallery/GalleryLeft/GalleryLeft4img/GalleryLeft4img';
 
@@ -27,9 +29,18 @@ import GalleryLeft4img from '../Gallery/GalleryLeft/GalleryLeft4img/GalleryLeft4
                     <div className={classes.TextContainer}>
                             <h3 className={classes.TextTitle}>{props.action}</h3>
                             <h3 className={classes.TextSubtitle}>{props.title}</h3>
-                            <p className={classes.Text}>{props.text}</p>                                                      
+                            <p className={classes.Text}>{props.text}</p> 
+
+                            <Button 
+                        path = {props.path}
+                        buttonValue = {props.buttonValue}
+                         />
+                                                     
                     </div>
+
                     
+                    
+
                                      
             </section>
   )

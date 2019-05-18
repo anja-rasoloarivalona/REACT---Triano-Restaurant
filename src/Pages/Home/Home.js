@@ -62,7 +62,10 @@ const Home = () => {
                                 img1 = {menu1}
                                 img2 = {menu2}
                                 img3 = {menu3}
-                                img4 = {menu4}/>
+                                img4 = {menu4}
+                                
+                                path='/menu'
+                                buttonValue="Menu"/>
                                 
 
                                 <FullParallax background = {rooftop}

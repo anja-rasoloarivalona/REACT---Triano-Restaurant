@@ -25,6 +25,7 @@
 }
 
 .TextSubtitle {
+    color: var(--color-secondary);
     font-size: 4.7rem;
     font-weight: 400;
     transform: translateY(-75%);
