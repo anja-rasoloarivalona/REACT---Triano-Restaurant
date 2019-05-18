@@ -25,7 +25,7 @@ import GalleryLeft4img from '../Gallery/GalleryLeft/GalleryLeft4img/GalleryLeft4
     <section className={classes.TextRight}>                   
                 {gallery}
                     <div className={classes.TextContainer}>
-                            <h3 className={classes.TextTitle}>Discover</h3>
+                            <h3 className={classes.TextTitle}>{props.action}</h3>
                             <h3 className={classes.TextSubtitle}>{props.title}</h3>
                             <p className={classes.Text}>{props.text}</p>                                                      
                     </div>

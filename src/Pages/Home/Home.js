@@ -43,6 +43,7 @@ const Home = () => {
            
             
                         <TextLeft
+                                action = "Discover"
                                 twoImg
                                 title = "OUR STORY" 
                                 text = "Triano is a restaurant, bar and coffee roastery located on a busy corner site in Farringdon’s Exmouth Market. With glazed frontage on two sides of the building, overlooking the market and a bustling London intersection."
@@ -54,6 +55,7 @@ const Home = () => {
                                       text = "The Dining Room"/>
 
                         <TextRight 
+                                action = "Discover"
                                 title = "OUR MENU" 
                                 text = "Triano is a restaurant, bar and coffee roastery located on a busy corner site in Farringdon’s Exmouth Market. With glazed frontage on two sides of the building, overlooking the market and a bustling London intersection."
                                 
@@ -67,6 +69,7 @@ const Home = () => {
                                       text = "The Rooftop"/>
 
                         <TextLeft
+                                action = "Discover"
                                 twoImg
                                 title = "OUR BAR" 
                                 text = "Triano is a restaurant, bar and coffee roastery located on a busy corner site in Farringdon’s Exmouth Market. With glazed frontage on two sides of the building, overlooking the market and a bustling London intersection."

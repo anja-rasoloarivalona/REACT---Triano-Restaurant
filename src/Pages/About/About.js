@@ -4,6 +4,7 @@ import classes from './About.css';
 
 import Header from '../../components/Header/Header';
 import TextRight from '../../components/UI/TextRight/TextRight';
+import TextLeft from '../../components/UI/TextLeft/TextLeft';
 import FullParallax from '../../components/UI/Gallery/FullParallax/FullParallax';
 
 
@@ -29,6 +30,7 @@ const About = () => {
                     text2= "US"/>
 
         <TextRight
+            action = "Discover"
             twoImg
             title = "OUR STORY" 
             text = "Triano is a restaurant, bar and coffee roastery located on a busy corner site in Farringdon’s Exmouth Market. With glazed frontage on two sides of the building, overlooking the market and a bustling London intersection."
@@ -79,7 +81,13 @@ const About = () => {
          
         </section>
 
-
+        <TextLeft
+            action = "Book"
+            twoImg
+            title = "Your table" 
+            text = ""
+            img1 = {img1}
+            img2 = {img2}/>
                     
     </React.Fragment>
   )
