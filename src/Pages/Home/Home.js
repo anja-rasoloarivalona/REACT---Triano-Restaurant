@@ -50,6 +50,10 @@ class Home extends Component {
        
         
                     <TextLeft
+                            path="/about"
+                            buttonValue="About Us"
+
+
                             action = "Discover"
                             twoImg
                             title = "OUR STORY" 
@@ -72,13 +76,15 @@ class Home extends Component {
                             img4 = {menu4}
                             
                             path='/menu'
-                            buttonValue="Menu"/>
+                            buttonValue="Our Menu"/>
                             
 
                             <FullParallax background = {rooftop}
                                   text = "The Rooftop"/>
 
                     <TextLeft
+                            path = '/bar'
+                            buttonValue = 'Our Bar'
                             action = "Discover"
                             twoImg
                             title = "OUR BAR" 
