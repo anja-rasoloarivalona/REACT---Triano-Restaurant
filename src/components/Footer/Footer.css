@@ -4,10 +4,13 @@
     grid-template-rows: repeat(2, max-content);
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
-    background-color: #E6E5E7;
+    align-items: center;
+    align-content: center;
+
     margin-top: 3rem;
-    background: rgb(0, 0, 5);
+    background: var(--color-primary);
     color: var(--color-white);
+    height: 100vh;
 }
 
 .Triano {
@@ -23,6 +26,7 @@
 .SiteMap {
     grid-row: 2 / 3;
     grid-column: 1 / 2;
+
 }
 
 .SiteMap div {

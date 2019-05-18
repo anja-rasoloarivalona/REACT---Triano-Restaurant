@@ -21,7 +21,7 @@
     font-family: 'Great Vibes', cursive;
     font-size: 12rem;
     font-weight: 400;
-    color: #c5b9a8;
+    color: var(--color-primary);
 }
 
 .TextSubtitle {

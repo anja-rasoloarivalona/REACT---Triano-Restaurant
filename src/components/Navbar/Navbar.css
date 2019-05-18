@@ -3,19 +3,16 @@
     grid-column: 1 / -1;
     background-color: transparent;
     padding: 2rem;
-    height: 6rem;
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 2;
-    border-top: 1px solid grey;
-    border-bottom: 1px solid grey;
+    border-top: 1px solid var(--color-white);
     font-family: 'Montserrat', sans-serif;
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 0.8),
-        rgba(0, 0, 0, 0.8));
-    
+    background: var(--color-primary);
 }
+    
+
 
 .List {
     display: flex;

@@ -29,6 +29,7 @@ import GalleryLeft4img from '../Gallery/GalleryLeft/GalleryLeft4img/GalleryLeft4
                             <h3 className={classes.TextSubtitle}>{props.title}</h3>
                             <p className={classes.Text}>{props.text}</p>                                                      
                     </div>
+                    
                                      
             </section>
   )

@@ -7,9 +7,8 @@
     padding: 2rem 0;
     color: var(--color-white);
     z-index: 2;
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 0.8),
-        rgba(0, 0, 0, 0.8));
+    background: var(--color-primary);
+
 }
 
 .TitleContainer {

@@ -3,7 +3,9 @@ import classes from './Menu.css';
 import {Link} from 'react-router-dom';
 import {Route} from 'react-router-dom';
 import Header from '../../components/Header/Header';
+
 import Lunch from './Lunch/Lunch';
+import Diner from './Diner/Diner';
 
 
 
@@ -34,7 +36,7 @@ const menu = () => {
                 </nav>
 
                 <Route exact path="/menu/" component={Lunch}></Route>                     
-                <Route path="/menu/diner" component={Lunch}></Route> 
+                <Route path="/menu/diner" component={Diner}></Route> 
                 <Route path="/menu/brunch" component={Lunch}></Route>
 
                   
