@@ -1,34 +1,13 @@
 .TeamContainer {
-    grid-column: 2 / 3;
-    height: 60vh;
-
+    grid-column: 1 / -1;
+    height: 80vh;
+    width: 100%;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    margin-top: 9rem;
+    justify-content: space-evenly;
     margin-bottom: 9rem;
-    background: blue;
 }
 
-
-
-
-.TeamMember {
-    width: 90%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-
-.Team {
-    background: red;
-}
-
-.TeamImgContainer {
-    background: green;
-}
 
 .TeamImg {
     height: 25rem;
@@ -39,11 +18,25 @@
 
 .TeamName {
     align-self: center;
+    text-align: center;
 }
 
 .TeamName div {
     font-family: 'Great Vibes', cursive;
+    font-size: 4rem;
+    font-weight: 400;
+    color: #c5b9a8;
+
+}
+
+.OurTeam {
+    grid-column: 1 / -1;
+    height: 30vh;
+    font-family: 'Great Vibes', cursive;
     font-size: 6rem;
     font-weight: 400;
     color: #c5b9a8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
