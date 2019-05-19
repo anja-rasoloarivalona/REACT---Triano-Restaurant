@@ -34,15 +34,16 @@ class About extends Component {
       <section className={classes.Story}>
             <div className={classes.StoryText}>
                   <div className={classes.StoryTitle}>
-                        Our Story
+                        <span>Our</span>
+                        <span>Story</span> 
                   </div>
                   <p>
                         Triano is a restaurant, bar and coffee roastery located on a busy corner site in Farringdon’s Exmouth Market. With glazed frontage on two sides of the building, overlooking the market and a bustling London intersection.
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.  
                   </p>
                   <p>
                         Triano is a restaurant, bar and coffee roastery located on a busy corner site in Farringdon’s Exmouth Market. With glazed frontage on two sides of the building, overlooking the market and a bustling London intersection.  
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
                   </p>
             </div>
             <div className={classes.StoryGallery}>
@@ -57,7 +58,15 @@ class About extends Component {
                                       text = ""/>
         
         <section className={classes.OurTeam}>
-            Meet Our Chef
+            <div className={classes.OurTeamTitle}>
+                  <span>Meet</span>
+                  <span>Our Chef</span>
+            </div>
+            <p>
+                  Triano is a restaurant, bar and coffee roastery located on a busy corner site in Farringdon’s Exmouth Market. With glazed frontage on two sides of the building, overlooking the market and a bustling London intersection.
+                  With glazed frontage on two sides of the building, overlooking the market and a bustling London intersection.    
+            </p>
+             
         </section>
 
         <section className={classes.TeamContainer}

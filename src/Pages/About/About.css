@@ -1,8 +1,57 @@
 .Story {
     grid-column: 2 / 3;
-    height: 50vh;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
+.StoryText {
+
+}
+
+.StoryTitle {
+    font-family: 'Great Vibes', cursive;
+    font-size: 10rem;
+    font-weight: 400;
+    color: var(--color-primary);
+}
+
+.StoryTitle span:nth-child(2){
+    color: var(--color-secondary);
+    margin-left: 2rem;
+}
+
+
+.StoryText p {
+    width: 35vw;
+    font-size: 1.4rem;
+    line-height: 1.3;
+    font-family: 'Open Sans', sans-serif;
+    margin: 1rem 0;
+    text-indent: 1rem;
+    text-align: justify;
+    color: var(--color-grey);
+}
+
+.StoryGallery {
+    margin-left: 3rem;
+}
+
+.StoryGalleryImg{
+    height: 20vw;
+    width: 20vw;
+    object-fit: cover;  
+}
+
+.StoryGalleryImg:first-child {
+    transform: translateY(-4rem);
+}
+
+.StoryGalleryImg:nth-child(2) {
+    transform: translateY(4rem);
+}
 
 
 .TeamContainer {
@@ -36,15 +85,35 @@
 
 }
 
+
 .OurTeam {
     grid-column: 1 / -1;
-    height: 30vh;
-    font-family: 'Great Vibes', cursive;
-    font-size: 6rem;
-    font-weight: 400;
-    color: #c5b9a8;
+    height: 40vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+
+
+.OurTeamTitle {
+    font-family: 'Great Vibes', cursive;
+    font-size: 10rem;
+    font-weight: 400; 
+}
+
+.OurTeamTitle span:first-child {
+    color: var(--color-primary);
+    margin-right: 4rem;
+}
+
+.OurTeam p {
+    width: 60vw;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.3;
+    color: var(--color-grey);
 }
 
