@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react'
 import classes from './Menu.css';
 import {Link} from 'react-router-dom';
 import {Route} from 'react-router-dom';
@@ -11,9 +11,20 @@ import Diner from './Diner/Diner';
 
 import background from '../../Assets/img/menuHeader.jpg';
 
-const menu = () => {
-  return (
-    <React.Fragment>
+
+
+
+
+class Menu extends Component {
+
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
+
+
+  render() {
+    return (
+      <React.Fragment>
 
         <Header background={background}
                     text1 = "Our"
@@ -46,7 +57,10 @@ const menu = () => {
   
 
     </React.Fragment>
-  )
+    )
+  }
 }
 
-export default menu;
+
+
+export default Menu;
