@@ -17,7 +17,9 @@ import chef1 from '../../Assets/img/about/chef1.png';
 import chef2 from '../../Assets/img/about/chef2.png';
 import chef3 from '../../Assets/img/about/chef3.png';
 
-import teamBg from '../../Assets/img/about/teamBg.jpg'
+import teamBg from '../../Assets/img/about/teamBg.jpg';
+import dining from '../../Assets/img/home/dining-room.png';
+import rooftop from '../../Assets/img/home/rooftop.jpg';
 
 
 class About extends Component {
@@ -92,7 +94,7 @@ class About extends Component {
                             <img src={chef2} className={classes.TeamImg}/>
                       </div>
                       <div className={classes.TeamName}>
-                            <div>John Doe</div>
+                            <div>Fred Doe</div>
                       </div>
                   </div>
                   <div className={classes.Team}>
@@ -100,19 +102,21 @@ class About extends Component {
                             <img src={chef3} className={classes.TeamImg}/>
                       </div>
                       <div className={classes.TeamName}>
-                            <div>John Doe</div>
+                            <div>Jeanne Doe</div>
                       </div>
                   </div>
          
         </section>
 
         <TextLeft
+            path = '/reservation'
+            buttonValue = 'Book a table'
             action = "Book"
             twoImg
             title = "Your table" 
             text = ""
-            img1 = {img1}
-            img2 = {img2}/>
+            img1 = {dining}
+            img2 = {rooftop}/>
                     
     </React.Fragment>
     )

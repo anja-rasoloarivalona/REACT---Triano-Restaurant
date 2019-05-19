@@ -75,20 +75,21 @@
 .TeamName {
     align-self: center;
     text-align: center;
+    margin-top: 1rem;
 }
 
 .TeamName div {
     font-family: 'Great Vibes', cursive;
     font-size: 4rem;
     font-weight: 400;
-    color: #c5b9a8;
+    color: var(--color-primary);
 
 }
 
 
 .OurTeam {
     grid-column: 1 / -1;
-    height: 40vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     align-items: center;
