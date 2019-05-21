@@ -2,13 +2,14 @@
     width: 70%;
     align-self: center;
     margin-bottom: 5rem;
+
 }
 
 .Title {
     align-self: center;
     padding: .5rem 1rem;
     margin-bottom: 4rem;
-    color: #c5b9a8;
+    color: var(--color-primary);
     font-size: 7rem;
     font-weight: 400;
     font-family: 'Great Vibes', cursive;

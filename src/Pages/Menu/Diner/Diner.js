@@ -15,24 +15,24 @@ export default function Diner() {
 
                     menuTitle = 'Starters'
                     
-                    title1 = 'Congrats'
-                    content1= 'Gratin with Gruyere Cheese'
-                    price1= '23'
+                    title1 = 'Caviar'
+                    content1= 'Royal Osetra Caviar'
+                    price1= '121'
 
-                    title2 = 'Escargot'
-                    content2= 'In a Parsley and Garlic Butter Sauce'
-                    price2= '33'
+                    title2 = 'Kampachi'
+                    content2= 'Kampachi Sashimi, pink Peppercorn Pickels'
+                    price2= '29'
 
-                    title3 = 'Quiche of the day'
-                    content3= 'With Mesclun Salad on the side'
-                    price3= '15'
+                    title3 = 'Salmon'
+                    content3= 'Salmon Sashimi'
+                    price3= '35'
 
-                    title4 = 'Beef Tartar'
-                    content4= 'Shallots, Mustard, Chives, Sriracha and Parsley'
-                    price4= '27'
+                    title4 = 'Lobster'
+                    content4= 'Baked Lobster, Butternut Squash Manicotti'
+                    price4= '127'
 
-                    title5 = 'Mesclun salad'
-                    content5= 'Dried Cranberries, Pistachios and a Balsamic Vinaigrette'
+                    title5 = 'Octopus'
+                    content5= 'Seared Octopus, Tomatillo Salsa, Red Wine'
                     price5= '14'                    
                     />
     </section>
@@ -51,17 +51,17 @@ export default function Diner() {
                     <MenuItems 
                     menuTitle = 'Main course'
                     
-                    title1 = 'Salmon steak'
-                    content1= 'Creamy Dill Sauce and a side of Cous Cous with Merguez Sausage'
+                    title1 = 'Dover Sole'
+                    content1= 'Sautéed Dover Sole, Almonds, Morels'
                     price1= '30'
 
                     title2 = 'Shrimp risotto'
                     content2= 'Caramelized Fennel, Cherry Tomatoes, Lemon and a Saffron Foam'
-                    price2= '20'
+                    price2= '29'
 
-                    title3 = 'Pan seared trout'
-                    content3= 'In a Roasted Garlic and Herbs de Provençe'
-                    price3= '18'
+                    title3 = 'Filet Mignon'
+                    content3= 'Pan Roasted Filet Mignon'
+                    price3= '41'
 
                     title4 = 'Pork medallions'
                     content4= 'Stuffed with Granny Smith Apple and Rosemary'
@@ -89,24 +89,24 @@ export default function Diner() {
                     <MenuItems 
                     menuTitle = 'Desserts'
                     
-                    title1 = 'Crêpe Suzette'
-                    content1= 'Orange Butter Sauce and Grand Marnier'
-                    price1= '13'
+                    title1 = 'Corn Hibiscus'
+                    content1= 'Hibiscus Meringue'
+                    price1= '15'
 
                     title2 = 'Warm thin crust apple tart'
                     content2= 'Apricot Glaze, Almond Paste and Vanilla Ice Cream'
                     price2= '23'
 
-                    title3 = 'Quiche of the day'
-                    content3= 'With Mesclun Salad on the side'
+                    title3 = 'Strawberry'
+                    content3= 'Red Wine-Strawberry, Yogurt Sorbet'
                     price3= '15'
 
                     title4 = 'Dark chocolate mousse'
                     content4= 'Perfumed with Rum Barrilito'
                     price4= '11'
 
-                    title5 = 'Soufflé of the day'
-                    content5= 'Banana'
+                    title5 = 'Apple'
+                    content5= 'Brown Butter Mouse, Apple Confit'
                     price5= '10'                    
                     />
     </section>
