@@ -9,8 +9,12 @@ import Diner from './Diner/Diner';
 
 
 
-import background from '../../Assets/img/menuHeader.jpg';
+import background from '../../Assets/img/menu/menuHeader.jpg';
 
+
+import lunch from '../../Assets/img/menu/lunch.jpg';
+import diner from '../../Assets/img/menu/diner.jpg';
+import brunch from '../../Assets/img/menu/brunch.jpg';
 
 
 
@@ -34,13 +38,17 @@ class Menu extends Component {
 
                   <nav className={classes.Navbar}>           
                         <ul className={classes.List}>
-                            <li style={{backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(" + background + ")"}}>>
+                            <li style={{backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(" + lunch + ")",
+                                        backgroundPosition: 'center'}}
+                                >>
                                 <Link to="/menu" className={classes.Link}>Lunch</Link>
                             </li>
-                            <li style={{backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(" + background + ")"}}>>
+                            <li style={{backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(" + diner + ")",
+                                        backgroundPosition: 'center'}}>>
                                 <Link to="/menu/diner" className={classes.Link}>Diner</Link>
                             </li>
-                            <li style={{backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(" + background + ")"}}>>
+                            <li style={{backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(" + brunch + ")",
+                                      backgroundPosition: 'center'}}>>
                                 <Link to="/menu/brunch" className={classes.Link}>Brunch</Link>
                             </li>
                         </ul>

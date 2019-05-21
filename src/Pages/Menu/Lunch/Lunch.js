@@ -1,7 +1,10 @@
 import React from 'react';
 import MenuItems from '../MenuItems/MenuItems';
 import classes from './Lunch.css';
-import background from '../../../Assets/img/menuHeader.jpg';
+
+import background from '../../../Assets/img/menu/menuHeader.jpg';
+
+
 
 export default function Lunch() {
 
