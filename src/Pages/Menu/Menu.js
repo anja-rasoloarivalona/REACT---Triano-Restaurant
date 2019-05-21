@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import classes from './Menu.css';
-import {Link} from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import {Route} from 'react-router-dom';
 import Header from '../../components/Header/Header';
 
@@ -40,16 +40,16 @@ class Menu extends Component {
                         <ul className={classes.List}>
                             <li style={{backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(" + lunch + ")",
                                         backgroundPosition: 'center'}}
-                                >>
-                                <Link to="/menu" className={classes.Link}>Lunch</Link>
+                                >
+                                <NavLink exact to="/menu" className={classes.Link} activeClassName={classes.Active}>Lunch</NavLink>
                             </li>
                             <li style={{backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(" + diner + ")",
-                                        backgroundPosition: 'center'}}>>
-                                <Link to="/menu/diner" className={classes.Link}>Diner</Link>
+                                        backgroundPosition: 'center'}}>
+                                <NavLink exact to="/menu/diner" className={classes.Link} activeClassName={classes.Active}>Diner</NavLink>
                             </li>
                             <li style={{backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(" + brunch + ")",
-                                      backgroundPosition: 'center'}}>>
-                                <Link to="/menu/brunch" className={classes.Link}>Brunch</Link>
+                                      backgroundPosition: 'center'}}>
+                                <NavLink exact to="/menu/brunch" className={classes.Link} activeClassName={classes.Active}>Brunch</NavLink>
                             </li>
                         </ul>
                 </nav>
