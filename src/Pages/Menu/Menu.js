@@ -6,6 +6,7 @@ import Header from '../../components/Header/Header';
 
 import Lunch from './Lunch/Lunch';
 import Diner from './Diner/Diner';
+import Brunch from './Brunch/Brunch';
 
 
 
@@ -56,7 +57,7 @@ class Menu extends Component {
 
                 <Route exact path="/menu/" component={Lunch}></Route>                     
                 <Route path="/menu/diner" component={Diner}></Route> 
-                <Route path="/menu/brunch" component={Lunch}></Route>
+                <Route path="/menu/brunch" component={Brunch}></Route>
 
                   
 
