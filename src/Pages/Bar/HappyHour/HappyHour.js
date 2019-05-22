@@ -8,56 +8,57 @@ const happyHour = () => {
         <React.Fragment>
 
             <section className={classes.Intro}>
-
+                <div><i>Join us for Happy Hours Specials at Triano's Rooftop</i></div>
+                <div> Monday-Friday 4PM-7PM </div>
             </section>
 
             <section className={classes.MenuSection}>
                     <MenuItems 
-                        menuTitle = 'Cocktails'
+                        menuTitle = 'Food'
                         
-                        title1 = 'Spicy concombre'
-                        content1= 'Greenalls Gin, St.Germain, lime juice'
-                        price1= '21'
+                        title1 = 'Hummus plate'
+                        content1= 'Pita and Olives'
+                        price1= '10'
 
-                        title2 = 'Lolita'
-                        content2= 'Green Mark Vodka, Sparkling White Wine, grapfruit'
+                        title2 = 'Chicken strips'
+                        content2= 'French house made, Honey Mustard'
                         price2= '15'
 
-                        title3 = 'Penicillin'
-                        content3= 'Famous Grouse Scotch, lemon juice'
+                        title3 = 'Mini Chicken Tacos'
+                        content3= 'Pico de Gallo, Sour Cream, Guacamole'
                         price3= '14'
 
-                        title4 = 'Midnight in Paris'
-                        content4= 'Park VS Cognac, Green Mark Vodka, lemon, orange'
-                        price4= '27'
+                        title4 = 'Teen Burger'
+                        content4= 'Caramelized Onions, Potato Brun'
+                        price4= '14'
 
-                        title5 = 'Light and Balmy'
-                        content5= 'Sailor Jerry rum, lime juice, ginger beer'
+                        title5 = 'Daddy Burger'
+                        content5= 'Cheese, Salmon, salad'
                         price5= '14'               
                     />
             </section>
             <section className={classes.MenuSection}>
                     <MenuItems 
-                        menuTitle = 'Wine'
+                        menuTitle = 'Drinks'
                         
-                        title1 = 'Chardonnay, Martin Ray'
-                        content1= 'Russian River Valley, California'
+                        title1 = 'White Sangria'
+                        content1= 'Glass'
                         price1= '13'
 
-                        title2 = 'Pinot Grigio'
-                        content2= 'Veneto, Italy'
-                        price2= '15'
+                        title2 = 'Beers'
+                        content2= 'Corona, Heineken, Bud Light'
+                        price2= '7'
 
-                        title3 = 'Sauvignon Blanc'
-                        content3= 'Napa Valley, California'
+                        title3 = 'Wines'
+                        content3= 'Chardonnay, Merlot'
                         price3= '15'
 
-                        title4 = 'Côte du Rhône, Mont-Redon'
-                        content4= 'Côtes du Rhône, France'
-                        price4= '27'
+                        title4 = 'Well Cocktails'
+                        content4= 'Vodka, Gin, Rum, Tequila'
+                        price4= '14'
 
-                        title5 = 'Bordeaux, Chateau de Sours'
-                        content5= 'Bordeaux, France'
+                        title5 = 'Sparkling Rose'
+                        content5= 'Glass'
                         price5= '14'               
                     />
             </section>

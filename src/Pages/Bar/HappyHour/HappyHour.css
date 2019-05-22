@@ -1,0 +1,31 @@
+.Intro {
+    grid-column: 2 / 3;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.Intro div:first-child {
+    font-size: 2rem;
+    color: var(--color-primary)
+}
+
+.Intro div:nth-child(2) {
+    font-size: 1.5rem;
+    margin-top: .5rem;
+
+    color: var(--color-grey);
+}
+
+.MenuSection {
+    grid-column: 2 / 3;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8rem;
+}
