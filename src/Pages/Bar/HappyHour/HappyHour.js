@@ -6,12 +6,6 @@ import MenuItems from '../../Menu/MenuItems/MenuItems';
 const happyHour = () => {
     return (
         <React.Fragment>
-
-            <section className={classes.Intro}>
-                <div><i>Join us for Happy Hours Specials at Triano's Rooftop</i></div>
-                <div> Monday-Friday 4PM-7PM </div>
-            </section>
-
             <section className={classes.MenuSection}>
                     <MenuItems 
                         menuTitle = 'Food'

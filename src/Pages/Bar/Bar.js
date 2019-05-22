@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react'
 import classes from './Bar.css';
 import { NavLink, Route } from 'react-router-dom';
 
@@ -11,9 +11,17 @@ import HappyHour from './HappyHour/HappyHour';
 
 import background from '../../Assets/img/barHeader.jpg';
 
-const Bar = () => {
-  return (
-    <React.Fragment>
+
+
+class Bar extends Component {
+
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
+
+  render() {
+    return (
+      <React.Fragment>
         <Header background={background}
                     text1 = "our"
                     text2= "BAR"/>
@@ -43,7 +51,8 @@ const Bar = () => {
   </section>
         
     </React.Fragment>
-  )
+    )
+  }
 }
 
 export default Bar;
