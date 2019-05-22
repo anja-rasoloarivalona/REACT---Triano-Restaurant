@@ -11,7 +11,7 @@
 
 }
 
-.StoryTitle {
+.StoryTitle span:first-child {
     font-family: 'Great Vibes', cursive;
     font-size: 10rem;
     font-weight: 400;
@@ -21,6 +21,7 @@
 .StoryTitle span:nth-child(2){
     color: var(--color-secondary);
     margin-left: 2rem;
+    font-size: 4.7rem;
 }
 
 
@@ -98,13 +99,15 @@
 
 
 
-.OurTeamTitle {
-    font-family: 'Great Vibes', cursive;
-    font-size: 10rem;
+.OurTeamTitle span:nth-child(2) {
+    font-size: 4.7rem;
     font-weight: 400; 
+    color: var(--color-secondary);
 }
 
-.OurTeamTitle span:first-child {
+.OurTeamTitle  span:first-child {
+    font-size: 10rem;
+    font-family: 'Great Vibes', cursive;
     color: var(--color-primary);
     margin-right: 4rem;
 }

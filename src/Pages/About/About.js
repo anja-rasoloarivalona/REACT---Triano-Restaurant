@@ -37,7 +37,7 @@ class About extends Component {
             <div className={classes.StoryText}>
                   <div className={classes.StoryTitle}>
                         <span>Our</span>
-                        <span>Story</span> 
+                        <span>story</span> 
                   </div>
                   <p>
                         Triano is a restaurant, bar and coffee roastery located on a busy corner site in Farringdon’s Exmouth Market. With glazed frontage on two sides of the building, overlooking the market and a bustling London intersection.
@@ -62,7 +62,7 @@ class About extends Component {
         <section className={classes.OurTeam}>
             <div className={classes.OurTeamTitle}>
                   <span>Meet</span>
-                  <span>Our Chef</span>
+                  <span>our chef</span>
             </div>
             <p>
                   Triano is a restaurant, bar and coffee roastery located on a busy corner site in Farringdon’s Exmouth Market. With glazed frontage on two sides of the building, overlooking the market and a bustling London intersection.

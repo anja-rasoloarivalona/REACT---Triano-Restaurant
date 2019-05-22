@@ -1,0 +1,26 @@
+.Intro {
+    grid-column: 1 / -1;
+    height: 90vh;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.IntroImg {
+    width: 50vw;
+    height: 90vh;
+    object-fit: cover;
+}
+
+.IntroTextContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+}
+
+.IntroTitle {
+    
+}
