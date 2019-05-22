@@ -41,3 +41,62 @@
     width: 70%;
     text-align: justify;
 }
+
+.Event {
+    grid-column: 2 / 3;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.EventContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-white);
+    width: 35%;
+    height: 60%;
+}
+
+.EventItem {
+    padding: .5rem 1rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.EventContainer  .EventItem:first-child {
+    background: var(--color-grey);  
+}
+
+.EventContainer  .EventItem:nth-child(2) {
+    background: var(--color-secondary);
+}
+
+.EventContainer  .EventItem:nth-child(2) .EventDay {
+    color: var(--color-white);
+}
+
+.EventContainer  .EventItem:nth-child(2) .EventHour {
+    color: var(--color-grey);
+}
+
+.EventTitle {
+    font-size: 2.5rem;
+    color: var(--color-primary);
+}
+
+
+.EventDay {
+    color: var(--color-secondary);
+    margin: .5rem 0;
+}
+
+
+

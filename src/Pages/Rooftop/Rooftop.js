@@ -3,6 +3,7 @@ import classes from './Rooftop.css';
 
 import Header from '../../components/Header/Header';
 import Button from '../../components/Button/Button';
+import Parallax from '../../components/UI/Gallery/FullParallax/FullParallax';
 
 import background from '../../Assets/img/rooftop/rooftopHeader.jpg';
 import rooftop from '../../Assets/img/rooftop/rooftop.jpg';
@@ -35,9 +36,47 @@ const Rooftop = () => {
                 path='/reservation'
                 buttonValue='Book a table'/>
 
-            </div>
+            </div>        
+        </section>
 
-            
+        <Parallax background={background}
+                  text="Our events"/>
+
+
+        <section className={classes.Event}>
+          <div className={classes.EventContainer}>
+
+              <div className={classes.EventItem}>
+                    <div className={classes.EventTitle}>
+                        Brunch Buffet
+                    </div>
+                    <div className={classes.EventDay}> 
+                        Saturdays & Sundays
+                    </div>
+                    <div className={classes.EventHour}>
+                        <i>10am-4pm</i>
+                    </div>
+                    <Button 
+                        path='/menu/brunch'
+                        buttonValue='Learn more'/>
+              </div>
+
+              <div className={classes.EventItem}>
+                    <div className={classes.EventTitle}>
+                        Happy Hour
+                    </div>
+                    <div className={classes.EventDay}> 
+                        Monday-Friday
+                    </div>
+                    <div className={classes.EventHour}>
+                        <i>4pm-7pm</i>
+                    </div>
+                    <Button 
+                        path='/bar'
+                        buttonValue='Learn more'/>
+              </div>
+          </div>
+
         </section>
     </React.Fragment>
   )
