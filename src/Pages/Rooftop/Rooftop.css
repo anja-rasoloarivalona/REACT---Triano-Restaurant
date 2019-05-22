@@ -21,6 +21,23 @@
     width: 50vw;
 }
 
-.IntroTitle {
-    
+.IntroTitle span:first-child{
+    font-size: 10rem;
+    font-family: 'Great Vibes', cursive;
+    color: var(--color-primary);
+    margin-right: 2.5rem;
+}
+
+.IntroTitle span:nth-child(2){
+    font-size: 4.7rem;
+    font-weight: 400; 
+    color: var(--color-secondary);
+}
+
+.IntroTextContainer p {
+    font-size: 1.4rem;
+    line-height: 1.3;
+    color: var(--color-grey);
+    width: 70%;
+    text-align: justify;
 }

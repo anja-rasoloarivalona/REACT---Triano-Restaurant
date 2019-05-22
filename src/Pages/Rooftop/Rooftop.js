@@ -1,6 +1,8 @@
 import React from 'react';
 import classes from './Rooftop.css';
+
 import Header from '../../components/Header/Header';
+import Button from '../../components/Button/Button';
 
 import background from '../../Assets/img/rooftop/rooftopHeader.jpg';
 import rooftop from '../../Assets/img/rooftop/rooftop.jpg';
@@ -29,7 +31,13 @@ const Rooftop = () => {
                 Our Rooftop Lounge is Montreal's largest outdoor Rooftop Garden and Fully enclosed Penthouse Lounge. One floor is fully enclosed. And our rooftop garden is open to the sky. We do have large umbrellas for those sunny or rainy days and is partially heated on colder nights.
                 </p>
 
+                <Button 
+                path='/reservation'
+                buttonValue='Book a table'/>
+
             </div>
+
+            
         </section>
     </React.Fragment>
   )
