@@ -26,7 +26,7 @@ const Bar = () => {
                         <li style={{backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(" + background + ")",
                                     backgroundPosition: 'center'}}
                             >
-                            <NavLink exact to="/bar/drinks" className={classes.Link} activeClassName={classes.Active}>Drinks</NavLink>
+                            <NavLink exact to="/bar" className={classes.Link} activeClassName={classes.Active}>Drinks</NavLink>
                         </li>
                         <li style={{backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(" + background + ")",
                                     backgroundPosition: 'center'}}>
@@ -36,8 +36,8 @@ const Bar = () => {
                 </nav>
 
                   
-                <Route path="/bar/drinks" component={Drinks}></Route> 
-                <Route path="/bar/happyHour" component={HappyHour}></Route>
+                <Route exact path="/bar" component={Drinks}></Route> 
+                <Route exact path="/bar/happyHour" component={HappyHour}></Route>
 
 
   </section>
