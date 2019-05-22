@@ -114,7 +114,7 @@ class About extends Component {
             action = "Book"
             twoImg
             title = "Your table" 
-            text = ""
+            text = "Triano is a restaurant, bar and coffee roastery located on a busy corner site in Farringdon’s Exmouth Market. With glazed frontage on two sides of the building, overlooking the market and a bustling London intersection. "
             img1 = {dining}
             img2 = {rooftop}/>
                     
