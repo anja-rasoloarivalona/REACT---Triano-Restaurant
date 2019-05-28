@@ -11,6 +11,12 @@
     font-family: 'Montserrat', sans-serif;
     background: var(--color-primary);
 }
+
+@media screen and (max-width: 650px) {
+    .Navbar {
+      display: none;;
+    }
+  }
     
 
 

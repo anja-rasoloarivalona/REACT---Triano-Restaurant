@@ -2,13 +2,17 @@
     grid-row: 2 / 3;
     grid-column: 1 / -1;
     width: 100%;
-    display: grid;
+    display: none;
     grid-template-rows: max-content;
     border-top: 1px solid var(--color-white);
-    align-content: center;
-
-   
+    align-content: center; 
 }
+
+@media screen and (max-width: 650px) {
+    .SideDrawers {
+      display: grid;;
+    }
+  }
 
 .ButtonContainer {
     background: var(--color-primary);

@@ -22,7 +22,7 @@ class App extends Component {
       <Layout>
           <Top />
           <SideDrawer />
-          {/*<Navbar />*/}
+          <Navbar />
             <Route exact path="/" component={Home}></Route>                     
             <Route path="/about" component={About}></Route> 
             <Route path="/menu" component={Menu}></Route>
