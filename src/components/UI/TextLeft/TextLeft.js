@@ -10,16 +10,12 @@ import GalleryLeft4img from '../Gallery/GalleryLeft/GalleryLeft4img/GalleryLeft4
 
         if (props.twoImg) {
                 gallery = <GalleryLeft2img 
-                                img1 = {props.img1}
-                                img2 = {props.img2}/>
+                                {...props}/>
                                 
         } else {
       
                 gallery = <GalleryLeft4img
-                                img1 = {props.img1}
-                                img2 = {props.img2}
-                                img3 = {props.img3}
-                                img4 = {props.img4}/>
+                                {...props} />
         }
 
 

@@ -23,7 +23,7 @@ class Bar extends Component {
     return (
       <React.Fragment>
         <Header background={background}
-                    text1 = "our"
+                    text1 = "Our"
                     text2= "BAR"/>
 
 
