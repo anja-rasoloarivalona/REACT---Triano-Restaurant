@@ -3,6 +3,7 @@ import './App.css';
 
 import Layout from './components/Layout/Layout';
 import Navbar from './components/Navbar/Navbar';
+import SideDrawer from './components/Navbar/SideDrawer/SideDrawers';
 import Top from './components/Header/Top/Top';
 import Footer from './components/Footer/Footer';
 
@@ -20,7 +21,8 @@ class App extends Component {
     return (
       <Layout>
           <Top />
-          <Navbar />
+          <SideDrawer />
+          {/*<Navbar />*/}
             <Route exact path="/" component={Home}></Route>                     
             <Route path="/about" component={About}></Route> 
             <Route path="/menu" component={Menu}></Route>
