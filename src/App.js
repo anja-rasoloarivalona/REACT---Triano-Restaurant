@@ -13,6 +13,7 @@ import About from './Pages/About/About';
 import Menu from './Pages/Menu/Menu';
 import Rooftop from './Pages/Rooftop/Rooftop';
 import Bar from './Pages/Bar/Bar';
+import Reservation from './Pages/Reservation/Reservation';
 
 class App extends Component {
   render() {
@@ -25,6 +26,7 @@ class App extends Component {
             <Route path="/menu" component={Menu}></Route>
             <Route path="/rooftop" component={Rooftop}></Route>
             <Route path="/bar" component={Bar}></Route>
+            <Route path="/reservation" component={Reservation}></Route>
           <Footer />   
       </Layout>
     );
