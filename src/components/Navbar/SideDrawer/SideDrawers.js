@@ -19,21 +19,31 @@ class SideDrawers extends Component {
 
     render() {
 
-        let drawerClass = [classes.List]
+        let drawerClass = [classes.List];
+        let spanTop = [classes.ButtonSpan];
+        let spanMid= [classes.ButtonSpan];
+        let spanBottom = [classes.ButtonSpan];
+
         if(this.state.listOpen) {
             drawerClass = [classes.List, classes.Open]
+            spanTop = [classes.ButtonSpan, classes.SpanTop]
+            spanMid = [classes.ButtonSpan, classes.SpanMid]
+            spanBottom = [classes.ButtonSpan, classes.SpanBottom]
+            
         }
+
+        
 
         
 
         return (
             <section className={classes.SideDrawers}>
                     <div className={classes.Button} onClick={this.drawerToggleClickHandler}>
-                        <div className={classes.ButtonSpan} />
-                        <div className={classes.ButtonSpan}/>
-                        <div className={classes.ButtonSpan}/>
+                        <div className={spanTop.join(' ')} />
+                        <div className={spanMid.join(' ')}/>
+                        <div className={spanBottom.join(' ')}/>
                     </div>
-                    
+
                     <ul className={classes.List} className={drawerClass.join(' ')}>
                         <li>
                             <Link to="/" className={classes.Link}>HOME</Link>

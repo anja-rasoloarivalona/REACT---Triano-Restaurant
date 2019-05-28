@@ -29,6 +29,7 @@
     height: 3px;
     width: 100%;
     background: var(--color-white);
+    transition: all .2s ease-out;
 }
 
 
@@ -57,4 +58,19 @@
 .Link {
     text-decoration: none;
     font-size: 2rem;
+}
+
+.SpanTop {
+    transform: rotate(135deg) translateY(-2.1rem) translateX(1px);
+    width: 80%;
+}
+
+.SpanMid {
+    
+    background: transparent;
+}
+
+.SpanBottom {
+    transform: rotate(-135deg) translateY(1.7rem) translateX(-2px);
+    width: 80%;
 }
