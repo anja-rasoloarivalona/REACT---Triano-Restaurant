@@ -38,11 +38,19 @@ class SideDrawers extends Component {
 
         return (
             <section className={classes.SideDrawers}>
+                <div className={classes.ButtonContainer}>
                     <div className={classes.Button} onClick={this.drawerToggleClickHandler}>
                         <div className={spanTop.join(' ')} />
                         <div className={spanMid.join(' ')}/>
                         <div className={spanBottom.join(' ')}/>
                     </div>
+
+                    <div className={classes.TitleContainer}>
+                            <h1 className={classes.Title}>Triano</h1>
+                            <h4 className={classes.Subtitle}>ALWAYS DELICIOUS</h4>
+                    </div>
+                </div>
+                    
 
                     <ul className={classes.List} className={drawerClass.join(' ')}>
                         <li>

@@ -10,6 +10,16 @@
    
 }
 
+.ButtonContainer {
+    background: var(--color-primary);
+    width: 100%;
+    height: 10rem;
+    grid-row: 1 / 2;
+    z-index: 4;
+    position: fixed;
+    top: 0;
+}
+
 .Button {
     height: 4rem;
     width: 6rem;
@@ -73,4 +83,24 @@
 .SpanBottom {
     transform: rotate(-135deg) translateY(1.7rem) translateX(-2px);
     width: 80%;
+}
+
+.TitleContainer {
+    color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.Title {
+    font-family: 'Great Vibes', cursive;
+    font-size: 4.5rem;
+}
+
+.Subtitle {
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    font-weight: 300;
 }
