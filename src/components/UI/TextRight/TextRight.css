@@ -15,8 +15,25 @@
     justify-content: center;
     flex-direction: column;
     padding-left: 8rem;
-
 }
+
+@media screen and (max-width: 1175px) {
+    .TextRight{
+        flex-direction: column;
+        padding: 0;
+        grid-column: 1 / -1;
+        height: 100vh;
+
+   
+    }
+
+    .TextContainer  {
+        width: 70%;
+        order: -1;
+        padding-left: 0;
+        margin-bottom: 2rem;
+    }
+  }
 
 .TextTitle {
     font-family: 'Great Vibes', cursive;

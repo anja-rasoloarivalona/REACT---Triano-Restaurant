@@ -61,7 +61,7 @@ class Reservation extends Component {
                         <div className={classes.ContactItem}>
                                 <span className={classes.ContactItemContent}><b>Tel : </b>+1 514 1234 123</span>
                                 <span className={classes.ContactItemContent}><b>E-mail : </b>triano_restaurant@mymail.com</span>
-                                <span className={classes.ContactItemContent}><b>Address : </b>54 Avenue Colin, Montréal, QC CANADA</span>
+                                <span className={classes.ContactItemContent}><b>Adress : </b>54 Avenue Colin, Montréal, QC CANADA</span>
                         </div>
                     </div>
                         

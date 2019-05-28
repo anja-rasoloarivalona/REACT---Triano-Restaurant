@@ -36,3 +36,13 @@
 .Contact {
     font-size: 1.5rem;
 }
+
+@media screen and (max-width: 960px) {
+    .Adress {
+      display: none;
+    }
+
+    .Contact {
+        display: none;
+    }
+  }

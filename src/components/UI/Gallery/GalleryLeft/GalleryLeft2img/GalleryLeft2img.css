@@ -41,3 +41,13 @@
     opacity: 1;
     transition: all .3s ease-in;
 }
+
+@media screen and (max-width: 1175px) {
+    .Gallery{
+        width: 70%;
+    }
+
+    .GalleryItem {
+        width: 80%;
+    }
+  }

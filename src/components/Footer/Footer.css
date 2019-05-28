@@ -123,3 +123,26 @@
     text-align: center;
     margin-bottom: .5rem;
 }
+
+@media screen and (max-width: 1038px) {
+    .Footer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .SiteMap {
+        grid-row: 2 / 3;
+        grid-column: 1 / 2;
+    
+    }
+
+    .Opening {
+        grid-row: 2 / 3;
+        grid-column: 2 / 3; 
+    }
+
+
+    .Adress {
+        grid-row: 3 / 4;
+        grid-column: 1 / -1;
+    }
+  }
