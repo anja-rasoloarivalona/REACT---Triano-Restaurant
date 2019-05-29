@@ -50,4 +50,12 @@
     .GalleryItem {
         width: 80%;
     }
+}
+
+
+@media screen and (max-width: 710px) {
+    .Delete {
+        display: none;
   }
+
+}

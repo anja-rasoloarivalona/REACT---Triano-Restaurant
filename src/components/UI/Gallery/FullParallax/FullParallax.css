@@ -16,3 +16,10 @@
     font-weight: 400;
     color: var(--color-white);
 }
+
+@media screen and (max-width: 557px) {
+    .Text {
+        font-size: 6rem;
+  }
+
+}

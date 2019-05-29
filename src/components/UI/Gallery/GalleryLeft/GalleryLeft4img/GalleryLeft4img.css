@@ -13,7 +13,6 @@
 .GalleryItem {
     height: 21vh;
     width: 20vw; 
-    background: blue;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -51,7 +50,6 @@
 @media screen and (max-width: 1175px) {
     .Gallery {
         width: 80%;
-        background: red;
         margin-bottom: 4rem;
     }
 
@@ -59,4 +57,29 @@
         height: 30vh;
         width: 30vw;  
     }
+  }
+
+  @media screen and (max-width: 814px) {
+    .Gallery {
+        width: 100%;
+        margin-bottom: 4rem;
+        grid-gap: 2.9rem;
+    }
+
+    .GalleryItem {
+        width: 40vw;  
+    }
+
+  }
+
+  @media screen and (max-width: 514px) {
+
+    .GalleryItem {
+        height: 25vw;  
+    }
+
+    .Gallery {
+        height: 50%;
+    }
+
   }
