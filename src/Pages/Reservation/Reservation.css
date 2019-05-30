@@ -2,19 +2,47 @@
     grid-column: 2 / 3;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     padding: 1rem 2rem;
     margin: 5rem 0;
+    width: 78vw;
+    justify-self: center;
 }
 
+@media screen and (max-width: 975px) {
+    .Entry {
+        grid-column: 1 / -1;
+        width: 88vw;
+    }  
+  }
+
+  
+
 .Text {
-    width: 40%;
+    width: 45vw;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding-left: 8rem;
+    padding-left: 2.5rem;
 }
+
+@media screen and (max-width: 820px) {
+    .EntryImg {
+        display: none;
+     
+    }
+
+    .Entry {
+        justify-content: center;
+    } 
+    
+    .Text {
+        width: 65vw;
+    }
+}
+
+
 
 .Title {
     font-family: 'Great Vibes', cursive;
@@ -22,6 +50,13 @@
     font-weight: 400;
     color: var(--color-primary);
 }
+
+@media screen and (max-width: 425px) {
+    .Title {
+        font-size: 7rem;
+    }
+  }
+
 
 .Para {
     text-align: center;
@@ -64,29 +99,41 @@
     object-fit: cover;
 }
 
+@media screen and (max-width: 572px) {
+    .Table {
+        flex-direction: column;
+        height: 90vh;
+    }
+
+    .TableItem {
+        margin-bottom: 2rem;
+    }
+  }
+
 .Contact {
     grid-column: 2 / 3;
     height: 50vh;
     display: flex;
     align-items: center;
-    justify-content: center;
-   
+    justify-content: center;  
 }
 
 .ContactContainer {
     width: 46%;
-    border: 1px solid #BF2C59;  
+    background: var(--color-primary);
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    border-radius: 3px;
 }
+
 
 .ContactTitle {
     font-family: 'Great Vibes', cursive;
     font-size: 4rem;
     font-weight: 400;
-    color: var(--color-primary);
+    color: var(--color-white);
     margin-top: 3rem;
     margin-left: 6rem;
 
@@ -99,11 +146,49 @@
     width: 70%;
     margin-bottom: 3rem;
     margin-left: 6rem;
-  
+    color: var(--color-white);
 }
 
 .ContactItemContent {
-font-size: 1.5rem;
-width: 100%;
-margin: 1rem 0;
+    font-size: 1.5rem;
+    width: 100%;
+    margin: 1rem 0;
+    border-bottom: 1px solid #fff;
+    padding-bottom: .5rem;
 }
+
+
+
+@media screen and (max-width: 1262px) {
+
+    .ContactItem , .ContactItem{
+        margin-left: 4rem;
+    }
+    .ContactContainer {
+        width: 50%;
+      }
+
+  
+  }
+
+  @media screen and (max-width: 942px) {
+    .ContactItem , .ContactItem{
+        margin-left: 2rem;
+    }
+
+    .ContactContainer {
+        width: 60%;
+      }
+  }
+
+  @media screen and (max-width: 710px) {
+    .ContactContainer {
+      width: 70%;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .ContactContainer {
+      width: 90%;
+    }
+  }
