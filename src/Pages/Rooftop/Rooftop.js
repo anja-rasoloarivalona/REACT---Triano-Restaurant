@@ -8,7 +8,8 @@ import Parallax from '../../components/UI/Gallery/FullParallax/FullParallax';
 import background from '../../Assets/img/rooftop/rooftopHeader.jpg';
 import rooftop from '../../Assets/img/rooftop/rooftop.jpg';
 
-import TextLeft from '../../components/UI/TextLeft/TextLeft';
+import brunch from '../../Assets/img/rooftop/brunch.jpeg';
+import happy from '../../Assets/img/rooftop/happy.jpeg';
 
 
 
@@ -56,7 +57,11 @@ class Rooftop extends Component {
             <section className={classes.Event}>
               <div className={classes.EventContainer}>
     
-                  <div className={classes.EventItem}>
+                  <div className={classes.EventItem}
+                  style={{backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(" + brunch + ")",
+                  backgroundPosition: "center",
+                  backgroundRepeat: "no-repeat",
+                  backgroundSize: "cover"}}>
                         <div className={classes.EventTitle}>
                             Brunch Buffet
                         </div>
@@ -71,7 +76,11 @@ class Rooftop extends Component {
                             buttonValue='Learn more'/>
                   </div>
     
-                  <div className={classes.EventItem}>
+                  <div className={classes.EventItem}
+                  style={{backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(" + happy+ ")",
+                  backgroundPosition: "center",
+                  backgroundRepeat: "no-repeat",
+                  backgroundSize: "cover"}}>>
                         <div className={classes.EventTitle}>
                             Happy Hour
                         </div>

@@ -1,15 +1,17 @@
 .Intro {
     grid-column: 1 / -1;
     height: 90vh;  
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr max-content;
+    align-content: center;
+    justify-items: center;
 }
 
 
 .IntroImg {
+    grid-column: 1 / 2;
     width: 50vw;
-    height: 90vh;
+    height: 100vh;
     object-fit: cover;
 }
 
@@ -42,6 +44,18 @@
     text-align: justify;
 }
 
+@media screen and (max-width: 1122px) {
+
+    .IntroTitle span:first-child{
+        font-size: 8rem;
+    }
+
+    .IntroTitle span:nth-child(2){
+        font-size: 3.7rem;
+    }
+
+  }
+
 .Event {
     grid-column: 2 / 3;
     height: 50vh;
@@ -53,50 +67,149 @@
 .EventContainer {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     background: var(--color-white);
-    width: 35%;
-    height: 60%;
+    width: 80%;
+    height: 70%;
 }
 
 .EventItem {
     padding: .5rem 1rem;
-    width: 100%;
+    width: 80%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin: 0 2rem;
+}
+
+@media screen and (max-width: 907px) {
+
+    .EventContainer {
+        width: 100%;
+   }
+    
+}
+
+
+@media screen and (max-width:713px) {
+
+    .EventContainer {
+        flex-direction: column;
+        justify-content: center;
+        background: var(--color-white);
+        height: 60vh;
+        margin-bottom: 3rem;
+   }
+
+    .EventItem {
+        padding:0;
+        margin: 1rem 0;
+    }
+
+    .Event {
+        height: 80vh;
+    }
+    
 }
 
 
 
-.EventContainer  .EventItem:first-child {
-    background: var(--color-grey);  
-}
 
-.EventContainer  .EventItem:nth-child(2) {
-    background: var(--color-secondary);
-}
-
-.EventContainer  .EventItem:nth-child(2) .EventDay {
-    color: var(--color-white);
-}
-
-.EventContainer  .EventItem:nth-child(2) .EventHour {
-    color: var(--color-grey);
-}
 
 .EventTitle {
-    font-size: 2.5rem;
-    color: var(--color-primary);
+    font-size: 3.5rem;
+    color: var(--color-white);
 }
 
 
 .EventDay {
-    color: var(--color-secondary);
+    color: var(--color-white);
     margin: .5rem 0;
 }
 
+.EventHour {
+    color: var(--color-white)
+}
 
+
+@media screen and (max-width: 1176px) {
+    .IntroImg {
+        width: 40vw;
+        justify-self: start;
+    }
+
+    .IntroTextContainer {
+        width: 60vw;
+    }
+    
+  }
+
+
+  @media screen and (max-width: 780px) {
+
+    .Intro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 100vh;  
+    }
+   
+    .IntroImg {
+        grid-column: 1 / 2;
+        width: 70vw;
+        height: 40%;
+        object-fit: cover;
+        justify-self: center;
+        order: 1;
+    }
+    
+    .IntroTextContainer {
+        width: 70vw;
+    }
+
+
+}
+
+  
+  @media screen and (max-width: 684px) {
+
+    .Intro {
+        height: 90vh;  
+    }
+
+    .IntroImg {
+        width: 80vw;
+    }
+    
+    .IntroTextContainer {
+        width: 80vw;
+    }
+
+}
+
+  @media screen and (max-width: 495px) {
+    .IntroImg {
+        width: 90vw;
+    }
+    
+    .IntroTextContainer {
+        width: 90vw;
+    }
+
+    .IntroTitle span:first-child{
+        font-size: 6rem;
+    }
+
+    .IntroTitle span:nth-child(2){
+        font-size: 2.7rem;
+    }
+
+    .Intro {
+        height: 80vh;  
+    }
+
+}
 
