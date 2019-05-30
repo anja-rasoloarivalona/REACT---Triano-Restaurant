@@ -33,8 +33,8 @@
     background-size: cover;
     background-position: center;
     clip-path: polygon(100% 0, 60% 50%, 100% 100%, 0 100%, 0 0);
-    border-top: .8rem solid #FFCA47;
-    border-bottom: .8rem solid #FFCA47;
+    border-top: .8rem solid #BF2C59;
+    border-bottom: .8rem solid #BF2C59;
    
 
 }
@@ -47,9 +47,8 @@
     background-size: cover;
     background-position: center;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 40% 50%);
-    border-top: .8rem solid #FFCA47;
-    border-bottom: .8rem solid #FFCA47;
-
+    border-top: .8rem solid #BF2C59;
+    border-bottom: .8rem solid #BF2C59;
 }
 
 .ParallaxTitle {
@@ -64,4 +63,38 @@
     font-weight: 600;
     color: var(--color-grey);
     transform: translateY(-1rem);
+}
+
+@media screen and (max-width: 1222px) {
+    .MenuSection {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:834px) {
+    .MenuSection {
+        width: 90%;
+    }
+}
+
+
+
+@media screen and (max-width: 732px) {
+    .Parallax {
+        display: none;
+    }
+
+    .MenuSection {
+        margin-bottom: 1rem;
+    }
+
+ 
+}
+
+@media screen and (max-width: 562px) {
+    .MenuSection {
+        grid-column: 1 / -1;
+        width: 100%;
+
+    }
 }

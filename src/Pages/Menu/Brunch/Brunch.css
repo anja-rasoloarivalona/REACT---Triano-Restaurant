@@ -7,3 +7,10 @@
     justify-content: center;
     margin-bottom: 8rem;
 }
+
+
+@media screen and (max-width: 1222px) {
+    .MenuSection {
+        margin-bottom: 0rem;
+    }
+}

@@ -23,6 +23,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
 }
 
 .ParallaxImgLeft {
@@ -64,4 +65,38 @@
     font-weight: 600;
     color: var(--color-grey);
     transform: translateY(-1rem);
+}
+
+@media screen and (max-width: 1222px) {
+    .MenuSection {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:834px) {
+    .MenuSection {
+        width: 90%;
+    }
+}
+
+
+
+@media screen and (max-width: 732px) {
+    .Parallax {
+        display: none;
+    }
+
+    .MenuSection {
+        margin-bottom: 1rem;
+    }
+
+ 
+}
+
+@media screen and (max-width: 562px) {
+    .MenuSection {
+        grid-column: 1 / -1;
+        width: 100%;
+
+    }
 }
