@@ -8,7 +8,7 @@
 }
 
 .StoryText {
-
+    height: 80%;
 }
 
 .StoryTitle span:first-child {
@@ -25,6 +25,19 @@
 }
 
 
+@media screen and (max-width: 473px) {
+
+    .StoryTitle span:first-child {
+        font-size: 8rem;
+    }
+
+    .StoryTitle span:nth-child(2){
+        height: 80vh;
+        font-size: 3rem;
+    }   
+}
+
+
 .StoryText p {
     width: 35vw;
     font-size: 1.4rem;
@@ -37,8 +50,14 @@
 }
 
 .StoryGallery {
+    height: 80%;
     margin-left: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+
 
 .StoryGalleryImg{
     height: 20vw;
@@ -46,12 +65,100 @@
     object-fit: cover;  
 }
 
-.StoryGalleryImg:first-child {
-    transform: translateY(-4rem);
+
+@media screen and (max-width: 1050px) {
+
+    .Story {
+        grid-column: 1 / -1;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+    }
+
+    .StoryGallery{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-left: 10rem;
+    }
+
+    .StoryGalleryImg{
+        height: 22vw;
+        width: 30vw;
+        object-fit: cover;  
+        margin: 2rem 0;
+    }
+
+
+    .StoryGalleryImg:first-child {
+        transform: translateY(0);
+    }
+    
+    .StoryGalleryImg:nth-child(2) {
+        transform: translateY(0);
+    }
+
+    .StoryText p {
+        width: 45vw;
+    }   
 }
 
-.StoryGalleryImg:nth-child(2) {
-    transform: translateY(4rem);
+@media screen and (max-width: 766px) {
+  .Story {
+      flex-direction: column;
+      justify-content: space-around;
+      height: 85vh;
+  }
+
+  .StoryText p {
+    width: 65vw;
+    }   
+
+  .StoryGallery {
+    flex-direction:row;
+    margin-left: 0rem;
+    height: 23vw; 
+  }
+
+  .StoryText {
+    height: 50%;
+    } 
+}
+
+@media screen and (max-width: 520px) {
+    .Story {
+        height: 70vh;
+        justify-content: center;
+        flex-direction: row;
+        margin: 0;
+    }
+
+    .StoryGallery {
+       display: none;
+      }
+
+      .StoryText {
+        height: 80%;
+        width: 90%;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        } 
+    
+}
+
+@media screen and (max-width: 385px) {
+    .Story {
+        height: 80vh;
+    }
+
+    
 }
 
 
@@ -87,6 +194,24 @@
 
 }
 
+@media screen and (max-width: 897px) {
+
+     .TeamImg {
+            height: 20rem;
+            width: 20rem;
+        }   
+}
+
+@media screen and (max-width: 693px) {
+
+    .TeamContainer {
+        height: 110vh;
+        margin-bottom: 9rem;
+        flex-direction: column;
+
+    }
+}
+
 
 .OurTeam {
     grid-column: 1 / -1;
@@ -110,6 +235,21 @@
     font-family: 'Great Vibes', cursive;
     color: var(--color-primary);
     margin-right: 2.5rem;
+}
+
+@media screen and (max-width: 473px) {
+
+    .OurTeamTitle  span:first-child {
+        font-size: 8rem;
+    }
+
+    .OurTeamTitle span:nth-child(2) {
+        height: 80vh;
+        font-size: 3rem;
+    }
+
+    
+    
 }
 
 .OurTeam p {
