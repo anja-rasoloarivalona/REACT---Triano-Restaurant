@@ -45,7 +45,7 @@
     line-height: 1.3;
     text-decoration: none;
     padding: 1rem 2rem;
-    color: var(--color-primary);
+    color: var(--color-white);
     font-family: 'Great Vibes', cursive;
     height: 100%;
     width: 100%;
@@ -54,7 +54,29 @@
     justify-content: center;
 }
 
+@media screen and (max-width: 627px) {
+    .Link {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 474px) {
+    .Link {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 378px) {
+    .Link {
+        font-size: 2rem;
+    }
+}
+
+
+.Link:focus {
+    outline: none;
+}
+
 .Active {
     background: var(--color-primary);
-    color: var(--color-white);
 }

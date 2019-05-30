@@ -5,5 +5,34 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: 8rem;
+    margin-bottom: 4rem;
+}
+
+@media screen and (max-width: 1222px) {
+    .MenuSection {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:834px) {
+    .MenuSection {
+        width: 90%;
+    }
+}
+
+
+
+@media screen and (max-width: 732px) {
+    .MenuSection {
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 562px) {
+    .MenuSection {
+        grid-column: 1 / -1;
+        width: 100%;
+        margin-bottom: 0;
+
+    }
 }
