@@ -5,7 +5,6 @@ import TeamIntro from './TeamIntro/TeamIntro';
 import Team from './Team/Team';
 
 
-import Animation from '../../components/AnimationLoader/AnimationLoader';
 
 /*--------UI COMPONENTS-------*/
 import TextLeft from "../../components/UI/TextLeft/TextLeft";
