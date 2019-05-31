@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './Footer.css';
 import {Link} from 'react-router-dom';
-import logo from '../../Assets/img/logo.png';
+
 
 import github from '../../Assets/icon/SVG/github.svg';
 import linkedin from '../../Assets/icon/SVG/linkedin.svg';
