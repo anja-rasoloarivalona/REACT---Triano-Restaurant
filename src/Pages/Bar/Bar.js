@@ -10,6 +10,8 @@ import HappyHour from './HappyHour/HappyHour';
 
 
 import background from '../../Assets/img/barHeader.jpg';
+import drinks from '../../Assets/img/barDrinks.jpg';
+import happy from '../../Assets/img/rooftop/happy.jpeg';
 
 
 
@@ -31,12 +33,12 @@ class Bar extends Component {
 
                 <nav className={classes.Navbar}>           
                     <ul className={classes.List}>
-                        <li style={{backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(" + background + ")",
+                        <li style={{backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(" + drinks + ")",
                                     backgroundPosition: 'center'}}
                             >
                             <NavLink exact to="/bar" className={classes.Link} activeClassName={classes.Active}>Drinks</NavLink>
                         </li>
-                        <li style={{backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(" + background + ")",
+                        <li style={{backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(" + happy + ")",
                                     backgroundPosition: 'center'}}>
                             <NavLink exact to="/bar/happyHour" className={classes.Link} activeClassName={classes.Active}>Happy Hour</NavLink>
                         </li>
