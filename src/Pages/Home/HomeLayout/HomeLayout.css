@@ -1,6 +1,0 @@
-.HomeLayout {
-    grid-column: 2 / 3;
-    display: grid;
-    grid-template-columns: 1fr 90vw 1fr ;
-  /*  grid-template-rows: max-content 50vh max-content 50vh max-content 50vh max-content;*/
-}

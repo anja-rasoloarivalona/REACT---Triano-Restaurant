@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import Layout from './components/Layout/Layout';
+import AppLayout from './components/AppLayout/AppLayout';
+
 import Navbar from './components/Navbar/Navbar';
 import SideDrawer from './components/Navbar/SideDrawer/SideDrawers';
-import Top from './components/Header/Top/Top';
+import LogoContainer from './components/LogoContainer/LogoContainer';
 import Footer from './components/Footer/Footer';
 
 import {Route} from 'react-router-dom';
@@ -19,8 +20,8 @@ import Reservation from './Pages/Reservation/Reservation';
 class App extends Component {
   render() {
     return (
-      <Layout>
-          <Top />
+      <AppLayout>
+          <LogoContainer />
           <SideDrawer />
           <Navbar />
             <Route exact path="/" component={Home}></Route>                     
@@ -30,7 +31,7 @@ class App extends Component {
             <Route path="/bar" component={Bar}></Route>
             <Route path="/reservation" component={Reservation}></Route>
           <Footer />   
-      </Layout>
+      </AppLayout>
     );
   }
 }

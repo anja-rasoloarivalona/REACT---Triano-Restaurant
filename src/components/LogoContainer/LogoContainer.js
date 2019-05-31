@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './Top.css';
+import classes from './LogoContainer.css';
 
 const Top = () => {
   return (

@@ -1,0 +1,49 @@
+.TeamContainer {
+    grid-column: 1 / -1;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 9rem;
+}
+
+
+.TeamImg {
+    height: 25rem;
+    width: 25rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.TeamName {
+    align-self: center;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.TeamName div {
+    font-family: 'Great Vibes', cursive;
+    font-size: 4rem;
+    font-weight: 400;
+    color: var(--color-white);
+
+}
+
+@media screen and (max-width: 897px) {
+
+     .TeamImg {
+            height: 20rem;
+            width: 20rem;
+        }   
+}
+
+@media screen and (max-width: 693px) {
+
+    .TeamContainer {
+        height: 110vh;
+        margin-bottom: 9rem;
+        flex-direction: column;
+
+    }
+}

@@ -1,0 +1,47 @@
+.TeamIntro {
+    grid-column: 1 / -1;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.TeamIntroTitle span:nth-child(2) {
+    font-size: 4.7rem;
+    font-weight: 400; 
+    color: var(--color-secondary);
+}
+
+.TeamIntroTitle  span:first-child {
+    font-size: 10rem;
+    font-family: 'Great Vibes', cursive;
+    color: var(--color-primary);
+    margin-right: 2.5rem;
+}
+
+@media screen and (max-width: 473px) {
+
+    .TeamIntroTitle  span:first-child {
+        font-size: 8rem;
+    }
+
+    .TeamIntroTitle span:nth-child(2) {
+        height: 80vh;
+        font-size: 3rem;
+    }
+
+    
+    
+}
+
+.TeamIntro p {
+    width: 60vw;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.3;
+    color: var(--color-grey);
+}

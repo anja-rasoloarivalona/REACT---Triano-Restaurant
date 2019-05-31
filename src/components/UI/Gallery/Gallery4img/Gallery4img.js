@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './GalleryLeft4img.css';
+import classes from './Gallery4img.css';
 
 const GalleryLeft4img = (props) => {
 
