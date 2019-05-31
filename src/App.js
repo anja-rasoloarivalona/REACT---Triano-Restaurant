@@ -8,7 +8,7 @@ import SideDrawer from './components/Navbar/SideDrawer/SideDrawers';
 import LogoContainer from './components/LogoContainer/LogoContainer';
 import Footer from './components/Footer/Footer';
 import Spinner from './components/Spinner/Spinner';
-import {Route, Redirect } from 'react-router-dom';
+import {Route, Switch} from 'react-router-dom';
 
 import Home from './Pages/Home/Home';
 
@@ -56,6 +56,7 @@ class App extends Component {
           <LogoContainer />
           <SideDrawer />
           <Navbar />
+          <Switch>
             <Route exact path="/" component={Home}></Route>                     
             <Route path="/about" component={lazyAbout}></Route> 
             <Route path="/menu" component={lazyMenu}></Route>
@@ -63,6 +64,7 @@ class App extends Component {
             <Route path="/bar" component={lazyBar}></Route>
             <Route path="/reservation" component={lazyReservation}></Route>
             <Route component={Home}/>
+            </Switch>
           <Footer />   
       </AppLayout>
     );
