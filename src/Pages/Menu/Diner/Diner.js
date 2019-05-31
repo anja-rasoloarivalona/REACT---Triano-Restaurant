@@ -1,7 +1,13 @@
 import React from "react";
 import MenuItems from "../MenuItems/MenuItems";
 import classes from "./Diner.css";
-import background from "../../../Assets/img/menu/menuHeader.jpg";
+
+
+/*------------IMG----------*/
+import caviar from "../../../Assets/img/menu/caviar.jpg";
+import sashimi from "../../../Assets/img/menu/sashimi.jpg";
+import shrimp from "../../../Assets/img/menu/shrimp.jpg";
+import filet from "../../../Assets/img/menu/filet.jpg";
 
 export default function Diner() {
   return (
@@ -28,18 +34,27 @@ export default function Diner() {
       </section>
 
       <section className={classes.Parallax}>
-        <section
-          className={classes.ParallaxImgLeft}
-          style={{ backgroundImage: " url(" + background + ")" }}
-        />
+        <section className={classes.ParallaxImgLeft}
+          style={{ backgroundImage: " url(" + caviar + ")" }}>
+                <span className={classes.ParallaxInerImg}>
+                    Caviar
+                </span>
+        </section>
+          
+        
         <section className={classes.ParallaxImg}>
           <h3 className={classes.ParallaxTitle}>Our Chef</h3>
           <h3 className={classes.ParallaxSubtitle}>SELECTION</h3>
         </section>
-        <section
-          className={classes.ParallaxImgRight}
-          style={{ backgroundImage: " url(" + background + ")" }}
-        />
+
+        <section className={classes.ParallaxImgRight}
+          style={{ backgroundImage: " url(" + sashimi+ ")" }}>
+                <span className={classes.ParallaxInerImg}>
+                    Salmon Sashimi
+                </span>
+        </section>
+          
+        
       </section>
 
       <section className={classes.MenuSection}>
@@ -64,20 +79,28 @@ export default function Diner() {
       </section>
 
       <section className={classes.Parallax}>
-        <section
-          className={classes.ParallaxImgLeft}
-          style={{ backgroundImage: " url(" + background + ")" }}
-        />
+        <section className={classes.ParallaxImgLeft}
+          style={{ backgroundImage: " url(" + shrimp + ")" }}>
+              <span className={classes.ParallaxInerImg}>
+              Shrimp risotto
+              </span>
+        </section>
+          
+        
 
         <section className={classes.ParallaxImg}>
           <h3 className={classes.ParallaxTitle}>Our Chef</h3>
           <h3 className={classes.ParallaxSubtitle}>SELECTION</h3>
         </section>
 
-        <section
-          className={classes.ParallaxImgRight}
-          style={{ backgroundImage: " url(" + background + ")" }}
-        />
+        <section className={classes.ParallaxImgRight}
+          style={{ backgroundImage: " url(" + filet + ")" }}>
+              <span className={classes.ParallaxInerImg}>
+                    Filet Mignon
+              </span>
+        </section>
+        
+      
       </section>
 
       <section className={classes.MenuSection}>

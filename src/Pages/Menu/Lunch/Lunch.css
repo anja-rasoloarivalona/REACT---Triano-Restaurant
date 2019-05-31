@@ -5,7 +5,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: 8rem;
+   
 }
 
 .Parallax {
@@ -27,31 +27,64 @@
 }
 
 .ParallaxImgLeft {
+    position: relative;
     align-self: center;
     width: 100%;
     height: 120%;
-    background-attachment: fixed;
     background-size: cover;
     background-position: center;
     clip-path: polygon(100% 0, 60% 50%, 100% 100%, 0 100%, 0 0);
-    border-top: .8rem solid #BF2C59;
-    border-bottom: .8rem solid #BF2C59;
-   
+    border-top: .8rem solid var(--color-primary);
+    border-bottom: .8rem solid var(--color-primary);
+    overflow: hidden;
+}
 
+
+.ParallaxImgLeft:hover {
+    clip-path: none;
 }
 
 .ParallaxImgRight {
+    position: relative;
     align-self: center;
     width: 100%;
     height: 120%;
-    background-attachment: fixed;
     background-size: cover;
     background-position: center;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 40% 50%);
-    border-top: .8rem solid #BF2C59;
-    border-bottom: .8rem solid #BF2C59;
-
+    border-top: .8rem solid var(--color-primary);
+    border-bottom: .8rem solid var(--color-primary);
+    overflow: hidden;
 }
+
+.ParallaxImgRight:hover {
+    clip-path: none;
+    transition:  all .3s ease-in;
+}
+
+.ParallaxInerImg {
+    position: absolute;
+    background: rgba(24, 24, 27, 0.651);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    color: var(--color-white);
+    opacity: 0;
+    z-index: 2000;
+}
+
+.ParallaxInerImg:hover {
+    opacity: 1;
+    transition:  all .1s ease-in;
+}
+
+
+
 
 .ParallaxTitle {
     font-family: 'Great Vibes', cursive;

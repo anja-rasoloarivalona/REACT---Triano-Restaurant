@@ -4,6 +4,12 @@ import classes from "./Lunch.css";
 
 import background from "../../../Assets/img/menu/menuHeader.jpg";
 
+import mesclun from "../../../Assets/img/menu/mesclun.jpg";
+import beef from "../../../Assets/img/menu/beef.jpg";
+import lobster from "../../../Assets/img/menu/lobster.jpg";
+import salmon from "../../../Assets/img/menu/salmon.jpg";
+
+
 export default function Lunch() {
   return (
     <React.Fragment>
@@ -29,18 +35,25 @@ export default function Lunch() {
       </section>
 
       <section className={classes.Parallax}>
-        <section
-          className={classes.ParallaxImgLeft}
-          style={{ backgroundImage: " url(" + background + ")" }}
-        />
+        <section className={classes.ParallaxImgLeft}
+          style={{ backgroundImage: " url(" + mesclun + ")" }}>
+              <span className={classes.ParallaxInerImg}>
+                      Mesclun salad
+              </span>
+        </section>        
         <section className={classes.ParallaxImg}>
           <h3 className={classes.ParallaxTitle}>Our Chef</h3>
           <h3 className={classes.ParallaxSubtitle}>SELECTION</h3>
         </section>
-        <section
-          className={classes.ParallaxImgRight}
-          style={{ backgroundImage: " url(" + background + ")" }}
-        />
+        <section className={classes.ParallaxImgRight}
+          style={{ backgroundImage: " url(" + beef + ")" }}>
+            <span className={classes.ParallaxInerImg}>
+                      Beef Tartar
+            </span>
+        </section>
+          
+        
+          
       </section>
 
       <section className={classes.MenuSection}>
@@ -65,20 +78,28 @@ export default function Lunch() {
       </section>
 
       <section className={classes.Parallax}>
-        <section
-          className={classes.ParallaxImgLeft}
-          style={{ backgroundImage: " url(" + background + ")" }}
-        />
+        <section className={classes.ParallaxImgLeft}
+          style={{ backgroundImage: " url(" + lobster + ")" }}>
+              <span className={classes.ParallaxInerImg}>
+                    Caribean Lobster tail
+              </span>
+        </section>
+          
+
 
         <section className={classes.ParallaxImg}>
           <h3 className={classes.ParallaxTitle}>Our Chef</h3>
           <h3 className={classes.ParallaxSubtitle}>SELECTION</h3>
         </section>
 
-        <section
-          className={classes.ParallaxImgRight}
-          style={{ backgroundImage: " url(" + background + ")" }}
-        />
+        <section  className={classes.ParallaxImgRight}
+          style={{ backgroundImage: " url(" + salmon + ")" }}>
+              <span className={classes.ParallaxInerImg}>
+                  Salmon steak
+              </span>
+          </section>
+         
+       
       </section>
 
       <section className={classes.MenuSection}>
